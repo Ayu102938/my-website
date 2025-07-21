@@ -1,0 +1,56 @@
+/* style.css */
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #f0f0f0;
+    /* 薄い灰色 */
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #e0e0e0;
+    /* 少し濃い灰色 */
+    text-align: center;
+    padding: 10px;
+}
+
+.main-container {
+    display: flex;
+    /* Flexboxを有効にする */
+}
+
+.left-sidebar {
+    background-color: #d0e0f0;
+    /* 薄い青色 */
+    width: 20%;
+    padding: 15px;
+}
+
+main {
+    background-color: #ffffff;
+    /* 白色 */
+    width: 60%;
+    padding: 20px;
+}
+
+.right-sidebar {
+    background-color: #d0f0d0;
+    /* 薄い緑色 */
+    width: 20%;
+    padding: 15px;
+}
+
+footer {
+    background-color: #c0c0c0;
+    /* 濃い灰色 */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
